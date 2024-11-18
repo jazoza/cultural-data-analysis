@@ -5,5 +5,5 @@ Introduction to cultural data, digitalisation and automated data collection as c
 
 - [1. Python Basics](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/01_CDA_intro_python.ipynb)
 - [2. HH Dataset Basics](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/02_CDA_HH_dataset.ipynb)
-- [3. HH Dataset Further](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/03_CDA_HH_dataset_further.ipynb)
+- [3. HH Data Representations](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/03_CDA_HH_dataset_representations.ipynb)
 
