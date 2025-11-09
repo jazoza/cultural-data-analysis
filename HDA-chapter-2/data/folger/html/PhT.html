@@ -1,0 +1,120 @@
+<html xmlns:html="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Phoenix and Turtle</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=600">
+<style type="text/css" media="screen,print">@import "fdt.css";</style>
+
+<script type="text/javascript">
+    var smartCopyYN = true;
+    function smartCopy() {
+      if (smartCopyYN == false) return true;
+      if (navigator.appVersion.indexOf("MSIE")!=-1) {
+        document.getElementById('copyPaste').style.visibility = "hidden";
+      }
+      var html = "";
+      var top = window.pageYOffset || document.documentElement.scrollTop;
+      if (typeof window.getSelection != "undefined") {
+        var sel = window.getSelection();
+        if (sel.rangeCount) {
+          var container = document.createElement("div");
+          for (var i = 0, len = sel.rangeCount; i < len; ++i) {
+            container.appendChild(sel.getRangeAt(i).cloneContents());
+          }
+          html = container.innerHTML;
+        }
+      } else if (typeof document.selection != "undefined") {
+        if (document.selection.type == "Text") {
+          html = document.selection.createRange().htmlText;
+        }
+      }
+      document.getElementById('copyPaste').innerHTML = html;
+      cpObj = document.getElementById('copyPaste');
+      var objs = cpObj.getElementsByTagName('a');
+      for (var i = objs.length-1; i >= 0; i--) { objs[i].parentNode.removeChild(objs[i]); }
+      var objs = cpObj.getElementsByTagName('hr');
+      for (var i = objs.length-1; i >= 0; i--) { objs[i].parentNode.removeChild(objs[i]); }
+
+      var objs = cpObj.getElementsByTagName('*');
+      for (var i = objs.length-1; i >= 0; i--) { 
+        if (objs[i].className) {
+          var className = objs[i].className;
+          var matchNodes = "ftln,lineNbr,pageHeading,actFooter";
+          if (matchNodes.indexOf(className) != -1) {
+            objs[i].parentNode.removeChild(objs[i]);
+          } else if (className.indexOf('alignment') != -1) {
+            objs[i].parentNode.removeChild(objs[i]);
+          }
+        }
+      }
+      if (window.getSelection) {
+        window.getSelection().removeAllRanges();
+        var range = document.createRange();
+        range.selectNode(document.getElementById('copyPaste'));
+        window.getSelection().addRange(range);
+      } else if (document.selection) {
+        document.selection.empty();
+        var range = document.body.createTextRange();
+        range.moveToElementText(document.getElementById('copyPaste'));
+        range.select();
+      }
+
+      window.scrollTo(0,top);
+    }
+
+  </script>
+</head>
+<body oncopy="smartCopy();">
+<div id="copyPaste" style="top:0px;left:0px;width:1px;height:1px;overflow:hidden;"></div>
+<div id="pageBlock" class="pageBlock"><div class="textBlock">
+<div class="div1">
+<img class="titleImg" src="PhTtitleblack.png" alt="The Phoenix and Turtle"><div class="credits">
+<p>Folger Shakespeare Library</p>
+<p><a href="http://www.folgerdigitaltexts.org">http://www.folgerdigitaltexts.org</a></p>
+</div>
+<hr>
+</div>
+<div id="contents" class="page div1">
+<div class="frontHeader">Contents</div>
+<table class="contents"><tbody>
+<tr>
+<td class="act">Front Matter</td>
+<td>
+<a id="locFromTheDirector" href="#FromTheDirector" class="scene">From the Director of the Folger Shakespeare Library</a><br><a id="locTextualIntroduction" href="#TextualIntroduction" class="scene">Textual Introduction</a><br>
+</td>
+</tr>
+<tr>
+<td class="act">The Phoenix and Turtle</td>
+<td>
+<a id="locpoem" href="#poem" class="scene">The Phoenix and Turtle</a><br>
+</td>
+</tr>
+</tbody></table>
+<hr>
+</div>
+<div id="FromTheDirector" class="page div1">
+<a name="FromTheDirector"></a><div class="frontHeader">From the Director of the Folger Shakespeare Library</div>
+<p>It is hard to imagine a world without Shakespeare. Since their composition more than four hundred years ago, Shakespeare’s plays and poems have traveled the globe, inviting those who see and read his works to make them their own.</p>
+<p>Readers of the New Folger Editions are part of this ongoing process of “taking up Shakespeare,” finding our own thoughts and feelings in language that strikes us as old or unusual and, for that very reason, new. We still struggle to keep up with a writer who could think a mile a minute, whose words paint pictures that shift like clouds. These expertly edited texts are presented to the public as a resource for study, artistic adaptation, and enjoyment. By making the classic texts of the New Folger Editions available in electronic form as Folger Digital Texts, we place a trusted resource in the hands of anyone who wants them.</p>
+<p>The New Folger Editions of Shakespeare’s plays, which are the basis for the texts realized here in digital form, are special because of their origin. The Folger Shakespeare Library in Washington, DC, is the single greatest documentary source of Shakespeare’s works. An unparalleled collection of early modern books, manuscripts, and artwork connected to Shakespeare, the Folger’s holdings have been consulted extensively in the preparation of these texts. The Editions also reflect the expertise gained through the regular performance of Shakespeare’s works in the Folger’s Elizabethan Theater.</p>
+<p>I want to express my deep thanks to editors Barbara Mowat and Paul Werstine for creating these indispensable editions of Shakespeare’s works, which incorporate the best of textual scholarship with a richness of commentary that is both inspired and engaging. Readers who want to know more about Shakespeare and his plays can follow the paths these distinguished scholars have tread by visiting the Folger either in-person or online, where a range of physical and digital resources exists to supplement the material in these texts. I commend to you these words, and hope that they inspire.</p>
+<p class="signed"><span class="italic">Michael Witmore</span><br>Director, Folger Shakespeare Library</p>
+<br><hr>
+</div>
+<div id="TextualIntroduction" class="page div1">
+<a name="TextualIntroduction"></a><div class="frontHeader">Textual Introduction<br>By Barbara Mowat and Paul Werstine</div>
+<p>Until now, with the release of the Folger Digital Texts, readers in search of a free online text of Shakespeare’s plays and poems had to be content primarily with using the Moby™ Text, which reproduces a late-nineteenth century version of the plays and poems. What is the difference? Many ordinary readers assume that there is a single text of all these works: what Shakespeare wrote. But Shakespeare’s plays were not published the way modern novels or plays are published today: as a single, authoritative text. In some cases, the plays have come down to us in multiple published versions, represented by various Quartos (Qq) and by the great collection put together by his colleagues in 1623, called the First Folio (F). There are, for example, three very different versions of <span class="italic">Hamlet</span>, two of <span class="italic">King Lear</span>, <span class="italic">Henry V</span>, <span class="italic">Romeo and Juliet</span>, and others. Editors choose which version to use as their base text, and then amend that text with words, lines or speech prefixes from the other versions that, in their judgment, make for a better or more accurate text.</p>
+<p>Other editorial decisions involve choices about whether an unfamiliar word could be understood in light of other writings of the period or whether it should be changed; decisions about words that made it into Shakespeare’s text by accident through four hundred years of printings and misprinting; and even decisions based on cultural preference and taste. When the Moby™ Text was created, for example, it was deemed “improper” and “indecent” for Miranda to chastise Caliban for having attempted to rape her. (See <span class="italic">The Tempest</span>, 1.2: “Abhorred slave,/Which any print of goodness wilt not take,/Being capable of all ill! I pitied thee…”). All Shakespeare editors at the time took the speech away from her and gave it to her father, Prospero.</p>
+<p>The editors of the Moby™ Shakespeare produced their text long before scholars fully understood the proper grounds on which to make the thousands of decisions that Shakespeare editors face. The Folger Library Shakespeare Editions, on which the Folger Digital Texts depend, make this editorial process as nearly transparent as is possible, in contrast to older texts, like the Moby™, which hide editorial interventions. The reader of the Folger Shakespeare knows where the text has been altered because editorial interventions are signaled by square brackets (for example, from <span class="italic">Othello</span>: “<img src="fdt-textb-l.png" class="imgTextX" alt="square bracket">If she in chains of magic were not bound,<img src="fdt-textb-r.png" class="imgTextX" alt="square bracket">”), half-square brackets (for example, from <span class="italic">Henry V</span>: “With <span style="white-space:nowrap"><img src="fdt-emend-l.png" class="imgTextX" alt="half-square bracket">blood<img src="fdt-emend-r.png" class="imgTextX" alt="half-square bracket"></span> and sword and fire to win your right,”), or angle brackets (for example, from <span class="italic">Hamlet</span>: “O farewell, honest <span style="white-space:nowrap"><img src="fdt-texta-l.png" class="imgTextX" alt="angle bracket">soldier.<img src="fdt-texta-r.png" class="imgTextX" alt="angle bracket"></span> Who hath relieved/you?”). At any point in the text, you can hover your cursor over a bracket for more information.</p>
+<p>Because the Folger Digital Texts are edited in accord with twenty-first century knowledge about Shakespeare’s texts, the Folger here provides them to readers, scholars, teachers, actors, directors, and students, free of charge, confident of their quality as texts of the plays and pleased to be able to make this contribution to the study and enjoyment of Shakespeare.</p>
+<hr>
+</div>
+<a name="poem"></a><div class="div1">
+<div class="page poemHeader roman">“The Phoenix and Turtle”</div>
+<br><br><a name="PhT-0001"></a>Let the bird of loudest lay<br><a name="PhT-0002"></a>On the sole Arabian tree<br><a name="PhT-0003"></a>Herald sad and trumpet be,<br><a name="PhT-0004"></a>To whose sound chaste wings obey.<br><br><a name="PhT-0005"></a><span class="lineNbr" name="PhT-0005">5</span>But thou shrieking harbinger,<br><a name="PhT-0006"></a>Foul precurrer of the fiend,<br><a name="PhT-0007"></a>Augur of the fever’s end,<br><a name="PhT-0008"></a>To this troop come thou not near.<br><br><a name="PhT-0009"></a>From this session interdict<br><a name="PhT-0010"></a><span class="lineNbr" name="PhT-0010">10</span>Every fowl of tyrant wing,<br><a name="PhT-0011"></a>Save the eagle, feathered king;<br><a name="PhT-0012"></a>Keep the obsequy so strict.<br><br><a name="PhT-0013"></a>Let the priest in surplice white,<br><a name="PhT-0014"></a>That defunctive music can,<br><a name="PhT-0015"></a><span class="lineNbr" name="PhT-0015">15</span>Be the death-divining swan,<br><a name="PhT-0016"></a>Lest the requiem lack his right.<br><br><a name="PhT-0017"></a>And thou treble-dated crow,<br><a name="PhT-0018"></a>That thy sable gender mak’st<br><a name="PhT-0019"></a>With the breath thou giv’st and tak’st,<br><a name="PhT-0020"></a><span class="lineNbr" name="PhT-0020">20</span>’Mongst our mourners shalt thou go.<br><br><a name="PhT-0021"></a>Here the anthem doth commence:<br><a name="PhT-0022"></a>Love and constancy is dead,<br><a name="PhT-0023"></a>Phoenix and the turtle fled<br><a name="PhT-0024"></a>In a mutual flame from hence.<br><br><a name="PhT-0025"></a><span class="lineNbr" name="PhT-0025">25</span>So they loved, as love in twain<br><a name="PhT-0026"></a>Had the essence but in one,<br><a name="PhT-0027"></a>Two distincts, division none;<br><a name="PhT-0028"></a>Number there in love was slain.<br><br><a name="PhT-0029"></a>Hearts remote yet not asunder,<br><a name="PhT-0030"></a><span class="lineNbr" name="PhT-0030">30</span>Distance and no space was seen<br><a name="PhT-0031"></a>’Twixt this turtle and his queen;<br><a name="PhT-0032"></a>But in them it were a wonder.<br><br><a name="PhT-0033"></a>So between them love did shine<br><a name="PhT-0034"></a>That the turtle saw his right<br><a name="PhT-0035"></a><span class="lineNbr" name="PhT-0035">35</span>Flaming in the phoenix’ sight;<br><a name="PhT-0036"></a>Either was the other’s mine.<br><br><a name="PhT-0037"></a>Property was thus appalled<br><a name="PhT-0038"></a>That the self was not the same;<br><a name="PhT-0039"></a>Single nature’s double name<br><a name="PhT-0040"></a><span class="lineNbr" name="PhT-0040">40</span>Neither two nor one was called.<br><br><a name="PhT-0041"></a>Reason, in itself confounded,<br><a name="PhT-0042"></a>Saw division grow together,<br><a name="PhT-0043"></a>To themselves yet either neither,<br><a name="PhT-0044"></a>Simple were so well compounded<br><br><a name="PhT-0045"></a><span class="lineNbr" name="PhT-0045">45</span>That it cried, “How true a twain<br><a name="PhT-0046"></a>Seemeth this concordant one!<br><a name="PhT-0047"></a>Love hath reason, Reason none,<br><a name="PhT-0048"></a>If what parts can so remain,”<br><br><a name="PhT-0049"></a>Whereupon it made this threne<br><a name="PhT-0050"></a><span class="lineNbr" name="PhT-0050">50</span>To the phoenix and the dove,<br><a name="PhT-0051"></a>Co-supremes and stars of love,<br><a name="PhT-0052"></a>As chorus to their tragic scene.<br><br><div class="centered">Threnos</div>
+<br><br><a name="PhT-0053"></a>Beauty, truth, and rarity,<br><a name="PhT-0054"></a>Grace in all simplicity,<br><a name="PhT-0055"></a><span class="lineNbr" name="PhT-0055">55</span>Here enclosed, in cinders lie.<br><br><a name="PhT-0056"></a>Death is now the phoenix’ nest,<br><a name="PhT-0057"></a>And the turtle’s loyal breast<br><a name="PhT-0058"></a>To eternity doth rest,<br><br><a name="PhT-0059"></a>Leaving no posterity;<br><a name="PhT-0060"></a><span class="lineNbr" name="PhT-0060">60</span>’Twas not their infirmity,<br><a name="PhT-0061"></a>It was married chastity.<br><br><a name="PhT-0062"></a>Truth may seem, but cannot be;<br><a name="PhT-0063"></a>Beauty brag, but ’tis not she;<br><a name="PhT-0064"></a>Truth and beauty buried be.<br><br><a name="PhT-0065"></a><span class="lineNbr" name="PhT-0065">65</span>To this urn let those repair<br><a name="PhT-0066"></a>That are either true or fair;<br><a name="PhT-0067"></a>For these dead birds sigh a prayer.<br><br><div class="">William Shakespeare</div>
+</div>
+<hr>
+</div></div>
+
+</body></html>

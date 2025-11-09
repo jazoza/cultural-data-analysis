@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sonnet author="William Shakespeare" year="1609">
+  <line n="1">Let me not to the marriage of true <rhyme>minds</rhyme></line>
+  <line n="2">Admit impediments. Love is not <rhyme>love</rhyme></line>
+  <line n="3">Which alters when it alteration <rhyme>finds</rhyme>,</line>
+  <line n="4">Or bends with the remover to <rhyme>remove</rhyme>:</line>
+  <line n="5">O no; it is an ever-fixed <rhyme>mark</rhyme>,</line>
+  <line n="6">That looks on tempests, and is never <rhyme>shaken</rhyme>;</line>
+  <line n="7">It is the star to every wandering <rhyme>bark</rhyme>,</line>
+  <line n="8">Whose worth's unknown, although his height be <rhyme>taken</rhyme>.</line>
+  <line n="9">Love's not Time's fool, though rosy lips and <rhyme>cheeks</rhyme></line>
+  <volta/>
+  <line n="10">Within his bending sickle's compass <rhyme>come</rhyme>;</line>
+  <line n="11">Love alters not with his brief hours and <rhyme>weeks</rhyme>,</line>
+  <line n="12">But bears it out even to the edge of <rhyme>doom</rhyme>.</line>
+  <line n="13">If this be error and upon me <rhyme>proved</rhyme>,</line>
+  <line n="14">I never writ, nor no man ever <rhyme>loved</rhyme>.</line>
+</sonnet>
