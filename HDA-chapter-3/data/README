@@ -1,0 +1,5 @@
+Data sources
+============
+
+- ``theatre-classique.tar.gz``: http://theatre-classique.fr/ (public domain texts)
+- ``chain-letters.csv``: preprocessed, original data from http://www.silcom.com/~barnowl/chain-letter/archive/%21content.html (The website states that archive may be reused and distributed without permission)
