@@ -5,6 +5,7 @@ Introduction to cultural data, digitalisation and automated data collection as c
 
 - [1. Python Basics](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/01_CDA_intro_python.ipynb)
 - [2. (Big) Data Narratives](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/02_CDA_HH_narratives.ipynb)
+- [3. Data and Bias](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/03_CDA_HH_dataset_representations.ipynb)
 
 ### Additional resources:
 - Humanities Data Analysis, selected chapters
