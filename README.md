@@ -6,7 +6,7 @@ Introduction to cultural data, digitalisation and automated data collection as c
 - [0. Python Basics](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/00_CDA_intro_python.ipynb)
 
 - [1. Heritage Houses websites](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/01_CDA_HH_websites.ipynb)
-- [2. (Big) Data Narratives](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/02_CDA_HH_dataset_representations.ipynb)
+- [2. (Big) Data Narratives](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/02_CDA_HH_text_analysis.ipynb)
 
 - [3. Empowerment](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/03_CDA_Europeana_data.ipynb)
 - [4. Data Comparatistics](https://colab.research.google.com/github/jazoza/cultural-data-analysis/blob/main/04_CDA_HH_midterm_synthesis.ipynb)
